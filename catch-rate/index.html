@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>PokeMMO catch rate</title>
+  <link rel=stylesheet href="style.css"/>
+  <link rel=icon href="favicon.ico"/>
+  <script src="main.js" type=module></script>
+</head>
+<body>
+<output id="progress-output">Fetching data...</output>
+<p id="language-switch">
+  <a href="#"><img src="England_Flag.png" alt="English" height="20" data-language="english"/></a>
+  <a href="#"><img src="France_Flag.webp" alt="Français" height="20" data-language="french"/></a>
+  <a href="#"><img src="Spain_Flag.webp" alt="Español" height="20" data-language="spanish"/></a>
+  <a href="#"><img src="Germany_Flag.webp" alt="Deutsch" height="20" data-language="german"/></a>
+</p>
+<form hidden>
+<p>
+  <label for="species-select">Pokemon</label>
+  <select id="species-select" autofocus>
+  </select>
+</p>
+</form>
+<template id="species-option">
+  <option id="mon-000" value="000">Species</option>
+</template>
+</body>
+</html>

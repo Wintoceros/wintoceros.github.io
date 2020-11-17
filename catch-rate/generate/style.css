@@ -1,0 +1,27 @@
+body {
+    background-color: #b49696;
+}
+form {
+    display: table;
+}
+p {
+    display: table-row;
+}
+label, input, select {
+    display: table-cell;
+}
+#id-label {
+    color: red;
+}
+#ghost-label {
+    color: #6a5acd;
+}
+#ability-label {
+    color: #1e64ff;
+}
+#hp-label {
+    color: orange;
+}
+#level-max-label, #level-min-label {
+    color: yellow;
+}

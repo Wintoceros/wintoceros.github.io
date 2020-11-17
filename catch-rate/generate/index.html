@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>PokeMMO rate JSON generator</title>
+  <link rel=stylesheet href="style.css"/>
+  <script src="main.js" type=module></script>
+</head>
+<body>
+<details>
+  <summary>Où trouver les infos</summary>
+  <img src="how-to.png" alt="Instructions pour trouver les infos"/>
+</details>
+<form>
+  <p><label id="id-label" for="species">Num. Pokémon</label> <input id="species" name="species" type=number min=1 max=645 value=1></p>
+  <p><label id="ghost-label" for="isGhost">Spectre (Ghost) ?</label> <input id="isGhost" name="isGhost" type=checkbox></p>
+  <p><label id="ability-label" for="ability">Talent (Ability)</label>
+    <select id="ability" name="ability">
+      <option value=1>Insomnia</option>
+      <option value=1>Esprit Vital (Vital Spirit)</option>
+      <option value=2>Matinal (Early Bird)</option>
+      <option value=3>Échauffement (Limber)</option>
+      <option value=0 selected>Autre</option>
+    </select>
+  </p>
+  <p><label id="hp-label" for="hp">PV de base</label> <input id="hp" name="hp" type=number min=1 max=255 value=100></p>
+  <p><label id="level-min-label" for="min-lvl">Niveau min.</label> <input id="min-lvl" name="min-lvl" type=number min=1 max=100 value=1></p>
+  <p><label id="level-max-label" for="max-lvl">Niveau max.</label> <input id="max-lvl" name="max-lvl" type=number min=1 max=100 value=1></p>
+</form>
+<output><pre>
+
+</pre></output>
+</body>
+</html>
